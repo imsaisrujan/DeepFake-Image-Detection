@@ -64,7 +64,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 jupyter notebook
 ```
 
-Open `DEEPFAKE IMAGE DETECTION USING AI 11.ipynb` and follow the steps.
+Open `DEEPFAKE IMAGE DETECTION USING AI.ipynb` and follow the steps.
 
 ---
 
