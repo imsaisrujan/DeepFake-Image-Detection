@@ -99,17 +99,31 @@ This project integrates **LIME (Local Interpretable Model-agnostic Explanations)
 
 ## 📊 Sample Output
 
-| Real Image | Predicted Real |  
-|------------|----------------|  
-| ![real](assets/real_sample.jpg) | ✅ |
+<table>
+  <tr>
+    <th>Real Image</th>
+    <th>Predicted Real</th>
+  </tr>
+  <tr>
+    <td><img src="assets/real_sample.jpg" width="300"/></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <th>Deepfake Image</th>
+    <th>Predicted Fake</th>
+  </tr>
+  <tr>
+    <td><img src="assets/fake_sample.jpg" width="300"/></td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <th colspan="2">LIME Explanation</th>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/lime_explanation.png" width="300"/></td>
+  </tr>
+</table>
 
-| Deepfake Image | Predicted Fake |  
-|----------------|----------------|  
-| ![fake](assets/fake_sample.jpg) | ❌ |
-
-| LIME Explanation |  
-|------------------|  
-| ![lime](assets/lime_explanation.png) |
 
 
 ---
