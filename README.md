@@ -1,6 +1,6 @@
 # 🧠 Deepfake Image Detection Using AI
 
-> ⚠️ Identifying what’s fake in the age of AI.
+> ⚠️ Identifying what’s fake using AI.
 
 **Deepfakes** are a growing concern in the world of digital media. This project presents a powerful AI-based approach for detecting deepfake images using computer vision, deep learning, and model explainability tools like LIME.
 
@@ -22,7 +22,6 @@
 ```
 deepfake-image-detection/
 ├── DEEPFAKE IMAGE DETECTION USING AI 11.ipynb  # Main notebook
-├── requirements.txt                            # Project dependencies
 ├── assets/                                     # Sample output images
 └── README.md                                   # Project documentation
 ```
