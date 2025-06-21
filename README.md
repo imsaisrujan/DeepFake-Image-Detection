@@ -2,9 +2,7 @@
 
 > ⚠️ Identifying what’s fake in the age of AI.
 
-**Deepfakes** are a growing concern in the world of digital media. This project presents a powerful AI-based approach for detecting deepfake images using computer vision and deep learning models.
-
-![deepfake-banner](https://user-images.githubusercontent.com/placeholder/deepfake-detection-banner.png)
+**Deepfakes** are a growing concern in the world of digital media. This project presents a powerful AI-based approach for detecting deepfake images using computer vision, deep learning, and model explainability tools like LIME.
 
 ---
 
@@ -13,6 +11,7 @@
 ✅ Deep learning-based image classification  
 ✅ Image preprocessing and normalization  
 ✅ Integration with transfer learning models  
+✅ LIME Explainability for model transparency  
 ✅ Evaluation metrics: Accuracy, confusion matrix  
 ✅ Visual predictions over test samples  
 
@@ -32,14 +31,15 @@ deepfake-image-detection/
 
 ## 🧑‍💻 Technologies Used
 
-| Tool / Library     | Purpose                         |
-|--------------------|----------------------------------|
-| Python 3.x         | Programming language             |
-| TensorFlow / Keras | Deep learning and modeling       |
-| OpenCV             | Image processing                 |
-| NumPy, Pandas      | Data manipulation                |
-| Matplotlib         | Visualization                    |
-| scikit-learn       | Evaluation metrics               |
+| Tool / Library     | Purpose                            |
+|--------------------|-------------------------------------|
+| Python 3.x         | Programming language                |
+| TensorFlow / Keras | Deep learning and modeling          |
+| OpenCV             | Image processing                    |
+| NumPy, Pandas      | Data manipulation                   |
+| Matplotlib         | Visualization                       |
+| scikit-learn       | Evaluation metrics                  |
+| LIME               | Model explainability / interpretability |
 
 ---
 
@@ -92,6 +92,18 @@ Open `DEEPFAKE IMAGE DETECTION USING AI 11.ipynb` and follow the steps.
 
 ---
 
+## 🧠 Explainability with LIME
+
+This project integrates **LIME (Local Interpretable Model-agnostic Explanations)** to increase model transparency and interpretability.
+
+✅ Understand **why** the model predicted an image as real or fake  
+✅ Visual explanations highlight **important pixel regions**  
+✅ Enhance trust and **debugging ability** for deep learning models
+
+> 📍 Example: LIME will highlight facial regions that influenced the classification decision.
+
+---
+
 ## 📊 Sample Output
 
 | Real Image | Predicted Real |  
@@ -102,13 +114,18 @@ Open `DEEPFAKE IMAGE DETECTION USING AI 11.ipynb` and follow the steps.
 |----------------|----------------|  
 | ![fake](assets/fake_sample.jpg) | ❌ |
 
-> *(Add your own images to `assets/` for visual demonstration.)*
+| LIME Explanation |  
+|------------------|  
+| ![lime](assets/lime_explanation.jpg) |
+
 
 ---
 
 ## 🔍 Recommended Datasets
 
+- [FaceForensics++](https://github.com/ondyari/FaceForensics)
 - [DeepFake Detection Challenge (Kaggle)](https://www.kaggle.com/c/deepfake-detection-challenge)
+- [Celeb-DF](https://github.com/yuezunli/Celeb-DF)
 
 ---
 
@@ -116,7 +133,7 @@ Open `DEEPFAKE IMAGE DETECTION USING AI 11.ipynb` and follow the steps.
 
 - Real-time video deepfake detection
 - Streamlit or Flask web deployment
-- Model interpretability with Grad-CAM
+- Enhanced model interpretability with Grad-CAM
 - Cross-dataset generalization
 
 ---
@@ -135,6 +152,8 @@ We welcome contributions! To contribute:
 ## 👨‍💻 Author
 
 **Sai Srujan**  
+
+---
 
 ## ⭐️ Show Your Support
 
