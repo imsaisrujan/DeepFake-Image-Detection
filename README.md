@@ -109,7 +109,7 @@ This project integrates **LIME (Local Interpretable Model-agnostic Explanations)
 
 | LIME Explanation |  
 |------------------|  
-| ![lime](assets/lime_explanation.jpg) |
+| ![lime](assets/lime_explanation.png) |
 
 
 ---
