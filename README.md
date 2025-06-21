@@ -21,7 +21,7 @@
 
 ```
 deepfake-image-detection/
-├── DEEPFAKE IMAGE DETECTION USING AI 11.ipynb  # Main notebook
+├── DEEPFAKE IMAGE DETECTION USING AI.ipynb     # Main notebook
 ├── assets/                                     # Sample output images
 └── README.md                                   # Project documentation
 ```
@@ -158,6 +158,7 @@ We welcome contributions! To contribute:
 ## 👨‍💻 Author
 
 **Sai Srujan**  
+**Oshmika**
 
 ---
 
