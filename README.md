@@ -58,13 +58,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. **Install dependencies:**
-
-```bash
-pip install -r requirements.txt
-```
-
-4. **Run the notebook:**
+3. **Run the notebook:**
 
 ```bash
 jupyter notebook
@@ -122,9 +116,7 @@ This project integrates **LIME (Local Interpretable Model-agnostic Explanations)
 
 ## 🔍 Recommended Datasets
 
-- [FaceForensics++](https://github.com/ondyari/FaceForensics)
 - [DeepFake Detection Challenge (Kaggle)](https://www.kaggle.com/c/deepfake-detection-challenge)
-- [Celeb-DF](https://github.com/yuezunli/Celeb-DF)
 
 ---
 
