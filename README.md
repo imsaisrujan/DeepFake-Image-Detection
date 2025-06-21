@@ -120,12 +120,12 @@ This project integrates **LIME (Local Interpretable Model-agnostic Explanations)
     <th colspan="2">LIME Explanation</th>
   </tr>
   <tr>
-    <td colspan="2"><img src="assets/lime_explanation.png" width="300"/></td>
-    <td>LIME Explanation for fake image</td></td>
+    <td colspan="2" align="center">
+      <img src="assets/lime_explanation.png" width="300"/><br/>
+      <em>LIME explanation for fake image</em>
+    </td>
   </tr>
 </table>
-
-
 
 ---
 
