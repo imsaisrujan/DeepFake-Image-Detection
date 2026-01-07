@@ -158,7 +158,6 @@ We welcome contributions! To contribute:
 ## 👨‍💻 Author
 
 **Sai Srujan**  
-**Oshmika**
 
 ---
 
